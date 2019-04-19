@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import TKProportional from './components/proportional'
+import TKProportional from './proportional'
 
 /* istanbul ignore next */
 const Components = {  
