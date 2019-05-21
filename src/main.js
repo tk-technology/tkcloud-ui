@@ -1,9 +1,11 @@
 import Vue from 'vue'
 import TKProportional from './components/proportional'
+import CircleProgress from './components/circleProgress'
 
 /* istanbul ignore next */
 const Components = {  
-  TKProportional
+  TKProportional,
+  CircleProgress
   }
 Object.keys(Components).forEach(name => {  
 Vue.component(name, Components[name])})
